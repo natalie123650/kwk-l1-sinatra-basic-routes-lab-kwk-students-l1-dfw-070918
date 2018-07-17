@@ -13,3 +13,9 @@ require_relative 'config/environment'
 #     "My favorite song is Ghosts n Stuff"
 #   end 
 # end  
+
+class App
+  get '/' do
+    "Hello World"
+  end
+end
